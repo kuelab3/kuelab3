@@ -1,22 +1,39 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fefefe;
+  color: #333;
   margin: 0;
-  padding: 2rem;
-  background-color: #f0f0f0;
+  padding: 0;
 }
 
 header {
-  background-color: #0077cc;
+  background-color: #1e90ff;
   color: white;
-  padding: 1rem;
+  padding: 2rem;
+  text-align: center;
 }
 
-button {
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: #0077cc;
+main {
+  padding: 2rem;
+}
+
+.intro, .members {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.member-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 400px;
+  background-color: #f9f9f9;
+}
+
+footer {
+  background: #1e90ff;
   color: white;
-  border: none;
-  cursor: pointer;
+  text-align: center;
+  padding: 1rem;
 }
